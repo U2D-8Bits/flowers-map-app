@@ -1,0 +1,25 @@
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.map-info-window {
+  max-width: 200px;
+}
+
+.map-info-window h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.map-info-window p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.map-info-window img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
