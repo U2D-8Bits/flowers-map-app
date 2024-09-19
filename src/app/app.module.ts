@@ -10,6 +10,7 @@ import { ListViewComponent } from './components/list-view/list-view.component';
 
 import { CardModule } from 'primeng/card';
 import { ImageModule } from 'primeng/image';
+import { ScrollPanelModule } from 'primeng/scrollpanel';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ImageModule } from 'primeng/image';
     MapMarker,
 
     CardModule,
-    ImageModule
+    ImageModule,
+    ScrollPanelModule
   ],
   providers: [
     provideClientHydration()

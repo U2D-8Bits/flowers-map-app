@@ -6,6 +6,7 @@ export interface Flower {
     icon?: string,
     img: string,
     ubicationImg: string,
+    ubicationDescription: string,
     ubication: {
         lat: number,
         lng: number

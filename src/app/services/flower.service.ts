@@ -13,6 +13,7 @@ export class FlowerService {
             icon: 'assets/icons/girasol.png',
             img: 'assets/images/girasol.jpg',
             ubicationImg: 'assets/locations/girasol.png',
+            ubicationDescription: 'Girasol en el campo de girasoles de Tournesol, Francia.',
             ubication: {
                 lat: 44.014, lng: 1.355
             },
@@ -23,6 +24,7 @@ export class FlowerService {
             leyend: 'En la mitología griega, Narciso era un joven tan hermoso que se enamoró de su propio reflejo en un estanque. Esta leyenda dio origen a la flor que lleva su nombre, la cual simboliza la vanidad y el egoísmo, pero también la belleza y la nueva vida.',
             icon: 'assets/icons/narciso.png',
             img: 'assets/images/narciso.jpg',
+            ubicationDescription: 'Narcisos en el valle de Narcisos, Suiza.',
             ubicationImg: 'assets/locations/narciso.png',
             ubication: {
                 lat: 46.305, lng: 7.470
@@ -35,6 +37,7 @@ export class FlowerService {
             icon: 'assets/icons/margarita.png',
             img: 'assets/images/margarita.jpg',
             ubicationImg: 'assets/locations/margarita.png',
+            ubicationDescription: 'Jardines de Kew, Londres, Reino Unido.',
             ubication: {
                 lat: 51.478, lng: -0.295
             },
@@ -46,6 +49,7 @@ export class FlowerService {
             icon: 'assets/icons/calendula.png',
             img: 'assets/images/calendula.jpg',
             ubicationImg: 'assets/locations/calendula.png',
+            ubicationDescription: ' Región de Kerala, India, donde se cultiva la caléndula ampliamente.',
             ubication: {
                 lat: 10.8505, lng: 76.2711
             },
@@ -57,6 +61,7 @@ export class FlowerService {
             icon: 'assets/icons/mimosa.png',
             img: 'assets/images/mimosa.jpg',
             ubicationImg: 'assets/locations/mimosa.png',
+            ubicationDescription: 'Sydney, Australia, donde la mimosa es una especie nativa.',
             ubication: {
                 lat: -33.8688, lng: 151.2093
             },
@@ -68,6 +73,7 @@ export class FlowerService {
             icon: 'assets/icons/dalia.png',
             img: 'assets/images/dalia.jpg',
             ubicationImg: 'assets/locations/dalia.png',
+            ubicationDescription: 'Xochimilco, México, donde las dalias son una flor muy popular.',
             ubication: {
                 lat: 19.285, lng: -99.118
             },
@@ -79,6 +85,7 @@ export class FlowerService {
             icon: 'assets/icons/forsitia.png',
             img: 'assets/images/forsitia.jpg',
             ubicationImg: 'assets/locations/forsitia.png',
+            ubicationDescription: 'Jardín botánico de Keukenhof, Países Bajos.',
             ubication: {
                 lat: 52.271, lng: 4.548
             },
@@ -90,6 +97,7 @@ export class FlowerService {
             icon: 'assets/icons/lirio.png',
             img: 'assets/images/lirio.jpg',
             ubicationImg: 'assets/locations/lirio.png',
+            ubicationDescription: 'Jardín botánico de Brooklyn, Nueva York, donde se pueden encontrar lirios amarillos.',
             ubication: {
                 lat: 40.8626, lng: -73.8801
             },
@@ -101,6 +109,7 @@ export class FlowerService {
             icon: 'assets/icons/crocus.png',
             img: 'assets/images/crocus.jpg',
             ubicationImg: 'assets/locations/crocus.png',
+            ubicationDescription: 'Parque nacional de los Lagos de Plitvice, Croacia.',
             ubication: {
                 lat: 44.8802, lng: 15.6175
             },
@@ -112,6 +121,7 @@ export class FlowerService {
             icon: 'assets/icons/buttercup.png',
             img: 'assets/images/buttercup.jpg',
             ubicationImg: 'assets/locations/buttercup.png',
+            ubicationDescription: 'Región de los Alpes suizos, donde crecen las buttercups.',
             ubication: {
                 lat: 46.559971, lng: 8.561075
             },
