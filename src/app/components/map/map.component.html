@@ -1,0 +1,9 @@
+
+    <google-map [center]="center" [zoom]="zoom" width="750px" height="610px">
+        <map-marker *ngFor="let flor of flores" 
+        [position]="flor.ubication" [title]="flor.name" [icon]="flor.icon ?? ''"
+        (mapClick)="selectFlower(flor)"
+        >
+        </map-marker>
+    </google-map>
+

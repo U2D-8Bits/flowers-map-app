@@ -1,0 +1,34 @@
+<div class="card-container">
+
+    <div class="list-container">
+
+        <p-card header="Flores Amarillas en el Mundo para Ti">
+            <p class="m-0">
+                Esta es una lista de flores amarillas que puedes encontrar en el mundo. Las flores amarillas son una de
+                las más hermosas y brillantes que puedes encontrar en la naturaleza. Esto lo hice para ti, espero que te
+                guste. Pese a la distancia y el tiempo, siempre intentare estar cerca de ti y demostrarte que te quiero
+                de una u otra manera, te amo.
+            </p>
+        </p-card>
+
+    </div>
+
+
+    <div *ngIf="selectedFlower !== null" class="flower-info-container">
+
+        <p-card header="{{ selectedFlower.name }}">
+            <div class="flower-info">
+                <p-image 
+                    src="{{ selectedFlower.img }}"
+                    alt="{{ selectedFlower.name }}"
+                    width="250"
+                />
+                <p class="flower-description">
+                    {{ selectedFlower.description }}
+                </p>
+            </div>
+        </p-card>
+
+    </div>
+
+</div>
