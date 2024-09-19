@@ -9,6 +9,8 @@ import { MapComponent } from './components/map/map.component';
 import { ListViewComponent } from './components/list-view/list-view.component';
 
 import { CardModule } from 'primeng/card';
+import { ImageModule } from 'primeng/image';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +26,7 @@ import { CardModule } from 'primeng/card';
     MapMarker,
 
     CardModule,
+    ImageModule
   ],
   providers: [
     provideClientHydration()
