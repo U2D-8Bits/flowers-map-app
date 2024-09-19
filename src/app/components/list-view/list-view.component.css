@@ -8,3 +8,13 @@
 .list-container, .flower-info-container{
     width: 550px;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#ubication-p{
+    margin: 0;
+}
