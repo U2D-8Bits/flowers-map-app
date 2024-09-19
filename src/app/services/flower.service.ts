@@ -103,5 +103,4 @@ export class FlowerService {
     getFlowers(): Flower[] {
         return this.Flowers;
     }
-    
 }
